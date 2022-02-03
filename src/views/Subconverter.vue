@@ -254,8 +254,8 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-	  "subconverter.rospod.top (Bagbug的订阅转换)": "https:///subconverter.rospod.top/sub?",
-          "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
+          "subconverter.rospod.top (Bagbug的订阅转换)": "https:///subconverter.rospod.top/sub?",
+	  "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
           "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
           "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
@@ -265,7 +265,7 @@ export default {
           "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
-	  { value: "https:///subconverter.rospod.top/sub?" },
+          { value: "https:///subconverter.rospod.top/sub?" },
           { value: "https://api.tsutsu.cc/sub?" },
           { value: "https://api2.tsutsu.cc/sub?" },
           { value: "https://api.v1.mk/sub?" },
