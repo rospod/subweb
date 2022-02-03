@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            つつの订阅转换
+            bagbug的订阅转换
             <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
           </div>
           <el-container>
@@ -254,6 +254,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
+	  "subconverter.rospod.top (Bagbug的订阅转换)": "https:///subconverter.rospod.top/sub?"
           "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
           "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
@@ -264,6 +265,7 @@ export default {
           "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
+	  { value: "https:///subconverter.rospod.top/sub?" },
           { value: "https://api.tsutsu.cc/sub?" },
           { value: "https://api2.tsutsu.cc/sub?" },
           { value: "https://api.v1.mk/sub?" },
@@ -475,7 +477,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "つつの订阅转换 ";
+    document.title = "rospod.top订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
